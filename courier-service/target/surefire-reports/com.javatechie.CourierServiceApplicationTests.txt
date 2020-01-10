@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.javatechie.CourierServiceApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.875 s <<< FAILURE! - in com.javatechie.CourierServiceApplicationTests
+contextLoads  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'input' available
+
